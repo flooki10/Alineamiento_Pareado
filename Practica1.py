@@ -10,8 +10,8 @@ from Bio.Seq import Seq
 Paso 1: importar las secuencias de los archivos .fasta
 """
 #importar las dos secuencias de los archivos .fasta
-iterador_reg=SeqIO.parse(r"C:/Users/walid/OneDrive/Desktop/bioinformatica/P1_SABHI_WALID/seq1.fasta","fasta")
-iterador_reg2=SeqIO.parse(r"C:/Users/walid/OneDrive/Desktop/bioinformatica/P1_SABHI_WALID/seq2.fasta","fasta")
+iterador_reg=SeqIO.parse(r"https://github.com/flooki10/Alineamiento_Pareado/blob/main/seq1.fasta","fasta")
+iterador_reg2=SeqIO.parse(r"https://github.com/flooki10/Alineamiento_Pareado/blob/main/seq2.fasta","fasta")
 #imprimimos las dos secuencias 
 secuencia_1=next(iterador_reg)
 secuencia_2=next(iterador_reg2)
